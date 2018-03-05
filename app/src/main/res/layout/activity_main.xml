@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    tools:context="com.jd.android.ace.MainActivity">
+
+    <Button
+        android:id="@+id/btn_install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="install"/>
+
+    <Button
+        android:id="@+id/btn_install_silent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="install(Silent)"/>
+
+</LinearLayout>
